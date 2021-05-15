@@ -1,0 +1,39 @@
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.headings p {
+  font-size: 1.125rem;
+  color: #565656;
+}
+
+.headings img {
+  max-width: 100%;
+}
+
+.filters {
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.searchBar {
+  border: none;
+  padding: 0.8em 3em 0.8em 0.8em;
+  border-radius: 2em;
+  transition: clip-path 0.4s ease-in-out;
+}
+
+.searchBar:focus {
+  outline: 0.5px solid #979797;
+}
+
+header svg {
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  cursor: pointer;
+}
